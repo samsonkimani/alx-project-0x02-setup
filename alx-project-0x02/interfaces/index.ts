@@ -16,3 +16,9 @@ export interface Post {
     title: string;
     content: string;
 }
+
+export interface ButtonProps {
+    styles?: string;
+    onClick?: () => void;
+    title?: string;
+}
