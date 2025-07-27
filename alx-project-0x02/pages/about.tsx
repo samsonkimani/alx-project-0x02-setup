@@ -8,9 +8,9 @@ const About:React.FC = () => {
             <p className="text-gray-700">This page contains information about our application.</p>
 
             <div>
-                <Button onClick={() => alert("Button Clicked!")} title="Learn More" styles="ml-2 rounded-sm" />
-                <Button onClick={() => alert("Contact Us!")} title="Contact Us" styles="ml-2 rounded-full" />
-                <Button onClick={() => alert("Feedback Sent!")} title="Send Feedback" styles="ml-2 rounded-md" />
+                <Button label="Small Button" size="small" shape="rounded-sm" />
+                <Button label="Medium Button" size="medium" shape="rounded-md" />
+                <Button label="Large Button" size="large" shape="rounded-full" />
             </div>
         </div>
     );

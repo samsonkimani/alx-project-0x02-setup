@@ -18,7 +18,8 @@ export interface Post {
 }
 
 export interface ButtonProps {
-    styles?: string;
-    onClick?: () => void;
-    title?: string;
+  label: string;
+  size?: "small" | "medium" | "large";
+  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
+  onClick?: () => void;
 }
