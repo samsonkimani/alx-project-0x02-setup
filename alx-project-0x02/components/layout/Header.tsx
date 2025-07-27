@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Home from "@/pages/home";
-import About from "@/pages/about";
 
 const Header: React.FC = () => {
     return(
@@ -11,6 +9,7 @@ const Header: React.FC = () => {
                 <nav className="space-x-4">
                     <Link href="/" className="text-white hover:text-gray-300">Home</Link>
                     <Link href="/about" className="text-white hover:text-gray-300">About</Link>
+                    <Link href="/posts" className="text-white hover:text-gray-300">Posts</Link>
                 </nav>
             </div>
         </header>
