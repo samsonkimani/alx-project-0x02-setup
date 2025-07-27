@@ -2,6 +2,7 @@ import React from "react";
 import Card from "@/components/common/Card";
 import { Post } from "@/interfaces";
 import PostModaL from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 
 const Hone:React.FC = () => {
     const [isModalOpen, setIsModalOpen] = React.useState(false);
@@ -22,6 +23,7 @@ const Hone:React.FC = () => {
 
     return (
         <div className="container mx-auto p-4">
+            <Header />
             <h1 className="text-3xl font-bold mb-4">Welcome to My Application</h1>
             <p className="text-gray-700">This is the home page of the application.</p>
 
